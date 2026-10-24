@@ -17,14 +17,14 @@ This project was built as part of my Frontend Development Internship at veda Tec
 - CSS3 (Flexbox, Shadow, Gradients)
 - JavaScript (DOM Manipulation, Switch Case Logic)
 
- 🐛 Bug I Fixed & What I Learned
+ Bug I Fixed & What I Learned
 Initially, the Kelvin conversion was not working. The reason was:
 1.  `id="Temperature"` vs `getElementById("temperature")` - Case mismatch
 2.  `<option value="kalvin">` vs `case "kelvin":` - Spelling mismatch
 - Learning: JavaScript is case-sensitive. Small typos can break the entire logic.
 
 
- 📂 Formula Used
+  Formula Used
 - C to F: (C × 9/5) + 32
 - F to C: (F - 32) × 5/9
 - C to K: C + 273.15
